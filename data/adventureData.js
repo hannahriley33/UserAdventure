@@ -82,6 +82,10 @@ const chair = {
     }]
 };     
     
-
+const questData = [
+    chair,
+    shampoo,
+    consultation,
+];
 
 // `You have a pleasant service and your stylist gives you a bomb blow out. You            purchase one of the products they used in your hair and prebook your next              appointment.`

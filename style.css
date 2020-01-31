@@ -4,5 +4,6 @@ header {
 body {
     background-image: url(./assets/salonPic.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+
 }
