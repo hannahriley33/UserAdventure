@@ -1,4 +1,6 @@
 // get form from DOM
+const whereTheQuestLinksGo = document.getElementById('questLinks');
+
 
 
 

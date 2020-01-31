@@ -1,12 +1,19 @@
 import renderQuestLink from './createQuestLink.js';
 import questData from '../data/adventureData.js'
 
+// get element from dom where the quests will appear
 const nav = document.getElementById('mapLinksGoHere');
 
+// go through every item in questsData (consultation, shampoo, chair)
 for (let i = 0; i < questsData.length; i++); {
+//default for every quest
     const whichQuest = questsData[i];
     let questDisplayOrNot = null;
-}
+
+    // if quest has been completed:
+    
+
+};
 
 // check localStorage to see what questions have been completed 
 // if there are no questions left to answer

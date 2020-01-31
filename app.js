@@ -20,9 +20,6 @@ userSignUp.addEventListener('submit', (event) => {
     // make user
     const userProfile = getUserName(formData);
 
-
-    
-
     
     // put user data in local storage
     localStorage.setItem('userProfile', JSON.stringify(userProfile));
@@ -33,4 +30,6 @@ userSignUp.addEventListener('submit', (event) => {
     window.location = '../listPageMap/index.html';
 
 });
+
+
 
