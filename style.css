@@ -1,0 +1,11 @@
+header {
+    background-color: grey;
+}
+body {
+    background-image: url(./assets/salonPic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+   
+
+}

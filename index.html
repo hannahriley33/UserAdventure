@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Salon Adventure</title>
+</head>
+
+<body>
+    <header>
+        <h2>Salon Adventure</h2>
+        <img src="assets/shearsComb.jpg" height="100px" width="100px">
+    </header>
+    <main>
+        <span id="userInfo">
+            <form id="userSignUp">
+                <p>Select a player</p>
+                <label id="player1">
+                    <input type="radio" name="userPlayer" value="player1">
+                    <img src="assets/player1.jpg" alt="player-1 picture" height="75px" width="60px">
+                </label>
+                <label id="player2">
+                    <input type="radio" name="userPlayer" value="player2">
+                    <img src="assets/player2.jpg" alt="player-2 picture" height="75px" width="60px">
+                </label>
+                <label id="player3">
+                    <input type="radio" name="userPlayer" value="player3">
+                    <img src="assets/player3.jpg" alt="player-3 picture" height="75px" width="60px">
+                </label>
+                <hr>
+                <label>
+                    Your Name: <input type="text" name="userName">
+                </label>
+                <button id="beginButton"> Begin! </button>
+            </form>
+        </span>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
