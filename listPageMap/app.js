@@ -1,15 +1,17 @@
-import renderQuestLink from './createQuestLink.js';
-import questData from '../data/adventureData.js'
+import createQuestLink from './createQuestLink.js';
+import { questData } from '../data/adventureData.js'
 
 // get element from dom where the quests will appear
 const nav = document.getElementById('mapLinksGoHere');
 
 // go through every item in questsData (consultation, shampoo, chair)
-for (let i = 0; i < questsData.length; i++); {
+for (let i = 0; i < questData.length; i++) {
 //default for every quest
-    const whichQuest = questsData[i];
+    const theQuest = questData[i];
     let questDisplayOrNot = null;
 
+    const theLink = createQuestLink(theQuest);
+    nav.appendChild(theLink);
     // if quest has been completed:
     
 

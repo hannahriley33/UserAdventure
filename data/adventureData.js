@@ -82,7 +82,7 @@ const chair = {
     }]
 };     
     
-const questData = [
+export const questData = [
     chair,
     shampoo,
     consultation,
